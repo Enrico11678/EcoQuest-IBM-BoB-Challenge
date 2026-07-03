@@ -44,7 +44,7 @@ Assicurati di avere [Node.js](https://nodejs.org/) installato sul tuo computer p
 
 ### 1. Clona la repository
 ```bash
-git clone [https://github.com/tuo-username/eco-quest.git](https://github.com/tuo-username/eco-quest.git)
+git clone https://github.com/AntonioRChieppa/EcoQuest-IBM-BoB-Challenge.git
 cd eco-quest
 ```
 
