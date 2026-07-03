@@ -10,7 +10,7 @@ Progetto realizzato interamente con l'agente AI **IBM BoB** per la **"Hack Your 
 
 ---
 
-## Descrizione del Progetto
+## Descrizione dell'idea
 
 Eco-Quest è una soluzione concreta e implementabile che definisce in modo circoscritto il problema affrontato: lo spreco energetico domestico e la difficoltà di mantenere costanti comportamenti ecosostenibili. Il progetto contribuisce in modo diretto agli obiettivi dell'Agenda ONU 2030 a cui fa riferimento, generando un impatto reale sull'**Obiettivo 7** (promuovendo l'efficienza e il risparmio energetico quotidiano) e sull'**Obiettivo 13** (stimolando l'azione diretta contro il cambiamento climatico tramite la riduzione attiva delle emissioni).
 
@@ -75,4 +75,12 @@ A questo punto, apri il file index.html nel browser o visita la porta del tuo se
 
 ## 📸 Screenshots
 
+![Dashboard EcoQuest](docs/dashboard.png)
+*La dashboard dell'utente con la propria Classe RPG e le missioni assegnate da BoB.*
+
+![Weekly Quest](docs/weekly_quest.png)
+*Panoramica sulle weekly test generate per un account di test*
+
+![Forziere XP](docs/loot.png)
+*Il calcolo dinamico dell'impatto: trasformazione degli XP in Euro e CO2 risparmiata.*
 
