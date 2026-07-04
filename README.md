@@ -22,6 +22,30 @@ L'impatto atteso è chiaro e misurabile. L'aspetto rivoluzionario risiede nella 
 
 ---
 
+## Descrizione del Progetto e Specifiche di Sistema
+
+Il progetto si basa su uno stack solido e un "Core Loop" gamificato ben definito[cite: 4]. Di seguito le specifiche tecniche e logiche del sistema:
+
+### 🧠 Il Motore di Intelligenza Artificiale
+L'intera logica applicativa fa affidamento su due funzioni AI principali:
+*   **Quest Generator:** L'agente AI (IBM BoB) genera missioni ecologiche basandosi sui dati anagrafici forniti dall'utente in fase di registrazione, ovvero Età e Genere. Inoltre, la difficoltà delle missioni scala dinamicamente in base al Livello raggiunto dal giocatore.
+*   **Generazione Bilanciata:** Ogni volta che l'utente richiede nuove sfide, l'AI genera esattamente 3 missioni giornaliere ("daily") e 3 missioni settimanali ("weekly").
+*   **Controllo delle ripetizioni e Limiti:** Per evitare sfide impossibili o ripetitive, l'app interroga il database per escludere i titoli delle quest già completate. È inoltre presente un limite massimo di 3 generazioni di quest per sessione.
+*   **Loot Chest Converter:** Una seconda funzione AI prende in input gli XP totali dell'utente e li converte in impatto reale. La regola di conversione è fissa: 10 XP equivalgono a 0.50€ risparmiati e 1 kg di CO2 evitata. Infine, l'AI elabora una divertente comparazione pop-culture per rendere il dato più tangibile.
+
+### 🎮 Il Sistema RPG (Livelli, XP e Gradi)
+EcoQuest implementa un vero e proprio sistema di progressione composto da 15 livelli massimi.
+*   **Assegnazione Punti:** Le missioni giornaliere garantiscono un premio fisso di 100 XP. Le missioni settimanali, più complesse, premiano l'utente con 300 XP.
+*   **Level-Up:** Per salire di livello, l'utente deve accumulare 500 XP nel livello corrente. In caso di passaggio di livello, l'eventuale "overflow" di XP viene conservato per il livello successivo. Gli XP totali non si resettano mai e alimentano unicamente il Forziere (Loot Chest).
+*   **Avanzamento di Rango:** Raggiungendo livelli specifici (Milestone), la Classe RPG dell'utente si evolve:
+    *   Livello 1: Recluta Inquinante
+    *   Livello 3: Apprendista Green
+    *   Livello 6: Esploratore Sostenibile
+    *   Livello 10: Guardiano dell'Energia
+    *   Livello 15: Campione dell'Agenda 2030
+
+---
+
 ## 👥 Team IMC
 EcoQuest è stata ideata e sviluppata come web app da:
 * **Antonio Renato Chieppa**
