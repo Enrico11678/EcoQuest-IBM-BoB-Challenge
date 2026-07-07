@@ -24,7 +24,7 @@ L'impatto atteso è chiaro e misurabile. L'aspetto rivoluzionario risiede nella 
 
 ## Descrizione del Progetto e Specifiche di Sistema
 
-Il progetto si basa su uno stack solido e un "Core Loop" gamificato ben definito[cite: 4]. Di seguito le specifiche tecniche e logiche del sistema:
+Il progetto si basa su uno stack solido e un "Core Loop" gamificato ben definito. Di seguito le specifiche tecniche e logiche del sistema:
 
 ### 🧠 Il Motore di Intelligenza Artificiale
 L'intera logica applicativa fa affidamento su due funzioni AI principali:
